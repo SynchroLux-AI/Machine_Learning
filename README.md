@@ -9,18 +9,18 @@ The <b>K-Means Clustering algorithm</b> is an unsupervised machine learning tech
    - Randomly initialize $K$ centroids (points that represent the center of each cluster).
 
 2. <b> Assignment Step </b>:
-   - Assign each data point to the nearest centroid based on a distance metric (commonly Euclidean distance).
+   - Assign each data point to the nearest centroid based on the Euclidean distance.
 
 3. <b> Update Step </b>:
    - Recalculate the centroids by taking the mean of all data points assigned to each cluster.
 
 4. <b> Repeat </b>:
-   - Repeat the assignment and update steps until the centroids stabilize (i.e., they no longer change significantly) or a maximum number of iterations is reached.
+   - Repeat the assignment and update steps until the centroids no longer change significantly, or a maximum number of iterations is reached.
 
 The algorithm minimizes the <b>intra-cluster variance</b>, which is the sum of squared distances between data points and their respective cluster centroids.
 
 
-<b> Iris Dataset Overview </b>
+<h2> Iris Dataset Overview </h2>
 The <b>Iris dataset</b> is a classic dataset in machine learning, containing 150 samples of iris flowers. Each sample has four features:
 - Sepal length
 - Sepal width
