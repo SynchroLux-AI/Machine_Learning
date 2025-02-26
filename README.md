@@ -3,7 +3,7 @@
 The <b>K-Means Clustering algorithm</b> is an unsupervised machine learning technique used for clustering data into groups based on their similarities. It is particularly useful when you want to identify patterns or groupings in a dataset without predefined labels. Below, I'll explain how K-Means works and how it can be applied to the <b>Iris flower dataset</b>.
 
 
-<b> How K-Means Works </b>
+<h2> How K-Means Works </h2>
 1. <b> Initialization </b>:
    - Choose the number of clusters, $K$, you want to create.
    - Randomly initialize $K$ centroids (points that represent the center of each cluster).
