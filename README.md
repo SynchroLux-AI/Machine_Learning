@@ -1,6 +1,6 @@
 <b> K-Means Clustering Algorithm in Machine Learning </b>
 
-The **K-Means Clustering algorithm** is an unsupervised machine learning technique used for clustering data into groups based on their similarities. It is particularly useful when you want to identify patterns or groupings in a dataset without predefined labels. Below, I'll explain how K-Means works and how it can be applied to the **Iris flower +++dataset**.
+The <b>K-Means Clustering algorithm</b> is an unsupervised machine learning technique used for clustering data into groups based on their similarities. It is particularly useful when you want to identify patterns or groupings in a dataset without predefined labels. Below, I'll explain how K-Means works and how it can be applied to the <b>Iris flower dataset</b>.
 
 
 <b> How K-Means Works </b>
@@ -17,17 +17,17 @@ The **K-Means Clustering algorithm** is an unsupervised machine learning techniq
 4. <b> Repeat </b>:
    - Repeat the assignment and update steps until the centroids stabilize (i.e., they no longer change significantly) or a maximum number of iterations is reached.
 
-The algorithm minimizes the **intra-cluster variance**, which is the sum of squared distances between data points and their respective cluster centroids.
+The algorithm minimizes the <b>intra-cluster variance</b>, which is the sum of squared distances between data points and their respective cluster centroids.
 
 
 <b> Iris Dataset Overview </b>
-The **Iris dataset** is a classic dataset in machine learning, containing 150 samples of iris flowers. Each sample has four features:
+The <b>Iris dataset</b> is a classic dataset in machine learning, containing 150 samples of iris flowers. Each sample has four features:
 - Sepal length
 - Sepal width
 - Petal length
 - Petal width
 
-The dataset is divided into three species of iris flowers: Setosa, Versicolor, and Virginica. However, in clustering tasks like K-Means, the species labels are ignored because it is an **unsupervised learning algorithm**.
+The dataset is divided into three species of iris flowers: Setosa, Versicolor, and Virginica. However, in clustering tasks like K-Means, the species labels are ignored because it is an <b>unsupervised learning algorithm</b>.
 
 <b> Applying K-Means to the Iris Dataset </b>
 1. <b> Preprocessing </b>:
@@ -35,14 +35,14 @@ The dataset is divided into three species of iris flowers: Setosa, Versicolor, a
    - Normalize the features (optional but recommended) to ensure that all features contribute equally to the distance calculations.
 
 2. <b> Choosing K </b>:
-   - Use methods like the **Elbow Method** to determine the optimal number of clusters, `K`. For the Iris dataset, `K=3` is often chosen because there are three species of flowers.
+   - Use methods like the <b>Elbow Method</b> to determine the optimal number of clusters, $K$. For the Iris dataset, $K=3$ is often chosen because there are three species of flowers.
 
 3. <b> Clustering </b>:
    - Apply the K-Means algorithm to group the data into three clusters.
    - Each cluster will ideally correspond to one species of iris flower.
 
 4. <b> Evaluation </b>:
-   - Compare the clustering results with the actual species labels (if available) to evaluate the performance. Metrics like <b> Adjusted Rand Index (ARI) <b> or $$\textcolor{blue}{Silhouette Score}$$ can be used.
+   - Compare the clustering results with the actual species labels, if available, to evaluate the performance. Metrics like <b> Adjusted Rand Index (ARI)</b> and <b>Silhouette Score</b> can be used.
 
 
  
