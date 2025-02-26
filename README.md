@@ -42,7 +42,7 @@ The dataset is divided into three species of iris flowers: Setosa, Versicolor, a
    - Each cluster will ideally correspond to one species of iris flower.
 
 4. <b> Evaluation </b>:
-   - Compare the clustering results with the actual species labels (if available) to evaluate the performance. Metrics like <b> Adjusted Rand Index (ARI) <b> or <b>\textcolor{yellow}{Silhouette Score}<b> can be used.
+   - Compare the clustering results with the actual species labels (if available) to evaluate the performance. Metrics like <b> Adjusted Rand Index (ARI) <b> or $$<b>\textcolor{yellow}{Silhouette Score}<b>$$ can be used.
 
 
  
