@@ -1,4 +1,4 @@
-<b> K-Means Clustering Algorithm in Machine Learning </b>
+<H1> K-Means Clustering Algorithm in Machine Learning </H1>
 
 The <b>K-Means Clustering algorithm</b> is an unsupervised machine learning technique used for clustering data into groups based on their similarities. It is particularly useful when you want to identify patterns or groupings in a dataset without predefined labels. Below, I'll explain how K-Means works and how it can be applied to the <b>Iris flower dataset</b>.
 
