@@ -47,5 +47,22 @@ The dataset is divided into three species of iris flowers: Setosa, Versicolor, a
 <h2> Elbow Plot </h2>
 When applying K-means clustering to the Iris dataset, the <b>inertial cluster (or elbow) plot</b> helps identify the natural grouping of the data. Since the Iris dataset has three species of flowers, the elbow plot often shows a noticeable elbow at "K=3," aligning with the dataset's inherent structure. This plot is a key step to ensure that the clustering algorithm is effectively capturing the underlying patterns in the data.  
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Scaling Example</title>
+    <style>
+        .scaled-image {
+            transform: scale(0.7); /* Scale factor of 1.5 */
+            /* Optional: Set the transform origin if needed */
+            transform-origin: top left; 
+        }
+    </style>
+</head>
+<body>
+    <h1>Scaled Image Example</h1>
+    <img src="./inertia_cluster_no.png" alt="Elbow Plot" class="scaled-image">
+</body>
+
 
  
