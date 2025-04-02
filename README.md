@@ -60,7 +60,7 @@ When applying K-means clustering to the Iris dataset, the <b>inertial cluster (o
     </style>
 </head>
 <body>
-    <h1>Scaled Image Example</h1>
+    <h1>Elbow Method for Optimal K</h1>
     <img src="./inertia_cluster_no.png" alt="Elbow Plot" class="scaled-image">
 </body>
 
