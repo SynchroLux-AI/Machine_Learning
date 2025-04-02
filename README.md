@@ -50,7 +50,7 @@ When applying K-means clustering to the Iris dataset, the <b>inertial cluster (o
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Image Scaling Example</title>
+    <title>Elbow Method for Optimal K</title>
     <style>
         .scaled-image {
             transform: scale(0.7); /* Scale factor of 1.5 */
