@@ -67,6 +67,7 @@ When applying K-means clustering to the Iris dataset, the <b>inertial cluster (o
 
  <h2> K-means Clustering Iris Dataset K=3 </h2>
  When applying the K-means clustering algorithm with K=3, the algorithm effectively groups the data into distinct clusters that correspond to these species, demonstrating clear separations based on their morphological features.
+ 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -81,6 +82,6 @@ When applying K-means clustering to the Iris dataset, the <b>inertial cluster (o
 </head>
 <body>
     <h1>K=3 Results</h1>
-    <img src="./k-means_clustering_iris_dataset_k3_results.png" alt="Description of Image" class="scaled-image">
+    <img src="./k-means_clustering_iris_dataset_k3_results.png" alt="K=3 Results" class="scaled-image">
 </body>
  
