@@ -83,7 +83,7 @@ When applying K-means clustering to the Iris dataset, the <b>inertial cluster (o
 </head-->
 <body>
     <h1>K=3 Results</h1>
-    <a href='https://postimg.cc/DmzNG10G' target='_blank'><img src='https://i.postimg.cc/FFbX2ZQT/k-means-clustering-iris-dataset-k3-results.png' border='0' alt='k-means-clustering-iris-dataset-k3-results' style="width: 70%; height: auto;"></a>
+    <a href='https://postimg.cc/DmzNG10G' target='_blank'><img src='https://i.postimg.cc/FFbX2ZQT/k-means-clustering-iris-dataset-k3-results.png' border='0' alt='k-means-clustering-iris-dataset-k3-results' style="width: 60%; height: auto;"></a>
     <!--img src="./k-means_clustering_iris_dataset_k3_results.png" alt="K=3 Results" class="scaled-image"-->
 </body>
  
